@@ -1,0 +1,8 @@
+:root { --red: #E63946; --red-dark: #B72B37; --gray: #6B7280; --bg: #F9FAFB; }
+body { background: var(--bg); color: #1D1D1F; }
+.text-primary-red { color: var(--red); }
+.btn-red { background: var(--red); color: #fff; border: none; }
+.btn-red:hover { background: var(--red-dark); color: #fff; }
+.chip { border: 1px solid #E5E7EB; background: #fff; border-radius: 20px; padding: 4px 14px; }
+.chip.active { background: var(--red); color: #fff; border-color: var(--red); }
+.food-emoji { font-size: 3rem; text-align: center; }
